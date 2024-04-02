@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     Animator _anime;
     Rigidbody2D _rb;
     Vector2 _movement;
-    public float Speed = 3f;
+    public float Speed = 4f;
 
     void Start()
     {

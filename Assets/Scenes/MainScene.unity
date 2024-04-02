@@ -4555,6 +4555,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4606,7 +4607,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 4
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4636,6 +4637,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd9bfcfa1e92e34bbaa0b766c6e384f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 1927883119}
+  SmoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: -10}
 --- !u!1 &548409025
 GameObject:
   m_ObjectHideFlags: 0
@@ -9303,7 +9319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20d194c82226b43802aed3409be821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  Speed: 4
 --- !u!95 &1927883121
 Animator:
   serializedVersion: 5
